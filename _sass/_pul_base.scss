@@ -350,23 +350,23 @@ media {
     max-width: 100%;
 }
 
-@font-face {
-    font-family: 'DejaVu Sans';
-    src: url("/fonts/Dejavu/DejaVuSansCondensed-webfont.eot");
-    src: url("/fonts/Dejavu/DejaVuSansCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.woff") format("woff"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.ttf") format("truetype"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.svg#svgFontName") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
+// @font-face {
+//     font-family: 'DejaVu Sans';
+//     src: url("/fonts/Dejavu/DejaVuSansCondensed-webfont.eot");
+//     src: url("/fonts/Dejavu/DejaVuSansCondensed-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.woff") format("woff"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.ttf") format("truetype"), url("/fonts/Dejavu/DejaVuSansCondensed-webfont.svg#svgFontName") format("svg");
+//     font-weight: normal;
+//     font-style: normal;
+// }
 
-@font-face {
-    font-family: 'Droid Serif';
-    src: url("/fonts/Droid_Serif/droidserif-webfont.eot");
+// @font-face {
+//     font-family: 'Droid Serif';
+//     src: url("/fonts/Droid_Serif/droidserif-webfont.eot");
 
-    /* IE9 Compat Modes */
-    src: url("/fonts/Droid_Serif/droidserif-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Droid_Serif/droidserif-webfont.woff2") format("woff2"), url("/fonts/Droid_Serif/droidserif-webfont.woff") format("woff"), url("/fonts/Droid_Serif/droidserif-webfont.ttf") format("truetype"), url("/fonts/Droid_Serif/droidserif-webfont.svg#svgFontName") format("svg");
+//     /* IE9 Compat Modes */
+//     src: url("/fonts/Droid_Serif/droidserif-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/Droid_Serif/droidserif-webfont.woff2") format("woff2"), url("/fonts/Droid_Serif/droidserif-webfont.woff") format("woff"), url("/fonts/Droid_Serif/droidserif-webfont.ttf") format("truetype"), url("/fonts/Droid_Serif/droidserif-webfont.svg#svgFontName") format("svg");
 
-    /* Legacy iOS */
-}
+//     /* Legacy iOS */
+// }
 
 html {
     font-size: 14px;
@@ -374,7 +374,7 @@ html {
 
 body {
     background-color: #f5f4f1;
-    font-family: "Dejavu Sans", "Arial Unicode MS", Helvetica, sans-serif;
+    font-family: /*"Dejavu Sans",*/ "Arial Unicode MS", Helvetica, sans-serif;
     font-weight: 400;
     line-height: 1.45;
     color: #333;
