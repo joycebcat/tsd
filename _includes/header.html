@@ -9,7 +9,7 @@
       <nav id="block-system-main-menu" role="navigation" aria-label="main library navigation" class="block block--system block--menu block--system-main-menu centered-navigation-menu pul-processed">
         <ul class="menu">
           <li class="first expanded">
-            <a href="/" title="Find library materials">Technical Services</a>
+            <a href="{{ "/" | prepend: site.baseurl }}" title="Find library materials">Technical Services</a>
             <ul class="menu">
               <li class="first leaf">
                 <a href="https://dss.princeton.edu">Departmental Information</a>
@@ -29,10 +29,10 @@
             </ul>
           </li>
           <li class="expanded">
-            <a href="/cataloging" title="View a list of our libraries and collections">Cataloging</a>
+            <a href="{{ "/cataloging" | prepend: site.baseurl }}" title="View a list of our libraries and collections">Cataloging</a>
             <ul class="menu">
               <li class="first leaf">
-                <a href="/cataloging/documentation">Cataloging</a>
+                <a href="{{ "/cataloging/documentation" | prepend: site.baseurl }}">Cataloging</a>
               </li>
               <li class="leaf">
                 <a href="https://library.princeton.edu/libraries">Authorities/PCC</a>
