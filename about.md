@@ -5,3 +5,9 @@ permalink: /about/
 ---
 
 About page
+
+## pmg test
+
+| jekyll | drupal  |
+|--------|--------:|
+| light  | cool   |
