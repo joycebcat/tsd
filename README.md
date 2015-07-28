@@ -14,3 +14,7 @@ For local development, run:
 `
 bundle exec jekyll serve --config _config.yml,_config-dev.yml
 `
+
+Resources
+
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
